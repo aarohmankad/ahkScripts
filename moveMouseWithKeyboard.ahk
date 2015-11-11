@@ -1,3 +1,5 @@
+#SingleInstance, force
+
 LAlt & w::
   MouseMove, 0, -50, 0, R
 Return
