@@ -15,9 +15,12 @@ LAlt & d::
 Return
 
 LAlt & q::
-  MouseClick, Left
+  SendInput, { Click }
 Return
 
 LAlt & e::
-  MouseClick, Right
+  SendInput, { Click right }
 Return
+
+LAlt Up::
+  Send { Escape }
