@@ -1,5 +1,13 @@
 #SingleInstance, force
 
+<!<+w::
+  SendInput, { WheelUp }
+Return
+
+<!<+s::
+  SendInput, { WheelDown }
+Return
+
 LAlt & w::
   MouseMove, 0, -50, 0, R
 Return
@@ -26,3 +34,4 @@ Return
 
 LAlt Up::
   Send { Escape }
+Return
